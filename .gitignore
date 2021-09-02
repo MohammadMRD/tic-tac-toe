@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# Editor
+.vscode/*
+!.vscode/settings.json
