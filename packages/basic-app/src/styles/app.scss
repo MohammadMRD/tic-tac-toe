@@ -29,7 +29,17 @@
     &-name {
       opacity: 0.8;
     }
+
+    &.active {
+      border-bottom: 2px solid var(--cyan-color);
+    }
   }
+}
+
+.game-result {
+  margin: 0.5em 0;
+  color: var(--green-color);
+  font-weight: bold;
 }
 
 .board {
@@ -71,9 +81,9 @@
   }
 }
 
-.btn-start {
+.btn-reset {
   margin: 30px 0;
-  background-color: var(--green-color);
+  background-color: var(--red-color);
   border-radius: 8px;
   border: none;
   padding: 0.5em 0.8em;
